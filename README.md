@@ -13,6 +13,7 @@ Necessary libraries:
 
 To use the program:
 - We recomend the website: https://www.ccn.com/ to try the progam quickly.
+- Another good website is: https://www.marketwatch.com/
 - You can try other newspaper websites however some will take a while. 
 - It is very imporpant to input the complete url.
 
