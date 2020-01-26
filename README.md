@@ -15,6 +15,9 @@ To use the program:
 - We recomend the website: https://www.ccn.com/ to try the progam quickly.
 - You can try other newspaper websites however some will take a while. 
 - It is very imporpant to input the complete url.
+
+Understanding the program:
+- A positive score indicates positive sentiment and vice-versa. 
 -------------------
 
 This is a collaborative project between Ivan Baeza and Juan del Aguila.
