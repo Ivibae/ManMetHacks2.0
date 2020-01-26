@@ -15,15 +15,16 @@ def main():
     myScraper.getArticleLinks(url)
     occurances = myScraper.filterByCompany()
     occurances = occurances[:5]
-    for occurance in occurances:
-        name = occurance[0]
-        num = occurance[1]
-        if num > 0:
-            print (name + " has " + str(num) + " articles")
-    company = str(input ("Which company are you interested in: "))
-    headlines = myScraper.findRelatedArticles(company)
     while True:
-        print ("We found these articles from the past 4 days: ")
+        for occurance in occurances:
+            name = occurance[0]
+            num = occurance[1]
+            if num > 0:
+                print (name + " has " + str(num) + " articles")
+        company = str(input ("Which company are you interested in: "))
+        headlines = myScraper.findRelatedArticles(company)
+        
+        print ("We found these articles from the past 7 days: ")
         i = 1
         for headline in headlines:
             print (str (i) + " - " + headline)
